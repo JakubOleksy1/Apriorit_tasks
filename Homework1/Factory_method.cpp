@@ -10,7 +10,6 @@ int main() {
         std::cin >> folderPath;
 
         auto files = GetFiles::getFiles(folderPath);
-
         std::cout << "Number of files found: " << files.size() << std::endl;
 
         for (const auto& file : files) {
