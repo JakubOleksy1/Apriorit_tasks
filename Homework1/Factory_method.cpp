@@ -4,7 +4,6 @@
 
 int main() {
     try {
-
         std::string folderPath;
         std::cout << "Please enter you folder path: ";
         std::cin >> folderPath;

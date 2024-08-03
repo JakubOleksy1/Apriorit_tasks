@@ -4,7 +4,6 @@
 #include "IRep.h"
 #include <fstream>
 #include "json.hpp"
-//#include <nlohmann/json.hpp> // Include the JSON library
 
 class JsonRep : public IRep {
 public:
@@ -14,7 +13,7 @@ public:
             j.push_back({{"name", file.name}, {"size", file.size}, {"creationTime", file.creationTime}});
         }
         std::ofstream outFile(outputPath);
-        outFile << j.dump(4); // Pretty print with 4 spaces
+        outFile << j.dump(4);
     }
 };
 
