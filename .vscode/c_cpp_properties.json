@@ -3,7 +3,11 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/build", 
+                "C:/Qt/6.7.2/mingw_64/include",
+                "C:/Qt/6.7.2/mingw_64/include/QtWidgets",
+                "C:/Qt/6.7.2/mingw_64/include/QtCore"
             ],
             "defines": [
                 "_DEBUG",

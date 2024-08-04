@@ -1,0 +1,3 @@
+C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/build/CMakeFiles/MyQtApp.dir
+C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/build/CMakeFiles/edit_cache.dir
+C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/build/CMakeFiles/rebuild_cache.dir

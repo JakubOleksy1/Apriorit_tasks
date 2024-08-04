@@ -24,3 +24,6 @@ int main() {
 
     return 0;
 }
+
+//NOTE1: All .h files can be separated into .h file and .cpp file to make the code more readable but for the sake of simplicity I have kept them in the same file.
+//NOTE2: They all have one function each so there is no need to separate them since in would create unnecessary files.

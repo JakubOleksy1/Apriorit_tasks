@@ -1,0 +1,4 @@
+-DWIN32
+-o
+C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/build/moc_MainWindow.cpp
+C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/MainWindow.h
