@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <string>
-#include "FileInfo.h" // Include the definition of the File structure
+#include "FileInfo.h" 
 
 std::vector<FileInfo> processFiles(const std::string& folderPath);
 

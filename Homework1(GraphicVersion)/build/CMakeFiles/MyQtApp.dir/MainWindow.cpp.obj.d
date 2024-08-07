@@ -404,41 +404,66 @@ CMakeFiles/MyQtApp.dir/MainWindow.cpp.obj: \
  C:/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
  C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\Factory_method.h \
  C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\FileInfo.h \
- C:/Qt/6.7.2/mingw_64/include/QtWidgets/QFileDialog \
- C:/Qt/6.7.2/mingw_64/include/QtWidgets/qfiledialog.h \
- C:/Qt/6.7.2/mingw_64/include/QtCore/qdir.h \
- C:/Qt/6.7.2/mingw_64/include/QtCore/qfile.h \
- C:/Qt/6.7.2/mingw_64/include/QtCore/qfiledevice.h \
- C:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
- C:/MinGW/include/c++/13.2.0/filesystem \
- C:/MinGW/include/c++/13.2.0/bits/fs_fwd.h \
- C:/MinGW/include/c++/13.2.0/bits/fs_path.h \
- C:/MinGW/include/c++/13.2.0/locale \
+ C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\RepFactory.h \
+ C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\IRep.h \
+ C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\TxtRep.h \
+ C:/MinGW/include/c++/13.2.0/fstream C:/MinGW/include/c++/13.2.0/istream \
+ C:/MinGW/include/c++/13.2.0/ios \
+ C:/MinGW/include/c++/13.2.0/bits/basic_ios.h \
  C:/MinGW/include/c++/13.2.0/bits/locale_facets.h \
  C:/MinGW/include/c++/13.2.0/cwctype \
  C:/MinGW/x86_64-w64-mingw32/include/wctype.h \
  C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
  C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/MinGW/include/c++/13.2.0/bits/locale_facets.tcc \
- C:/MinGW/include/c++/13.2.0/bits/locale_facets_nonio.h \
- C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/MinGW/include/c++/13.2.0/bits/codecvt.h \
- C:/MinGW/include/c++/13.2.0/bits/locale_facets_nonio.tcc \
- C:/MinGW/include/c++/13.2.0/bits/locale_conv.h \
- C:/MinGW/include/c++/13.2.0/iomanip \
- C:/MinGW/include/c++/13.2.0/bits/quoted_string.h \
- C:/MinGW/include/c++/13.2.0/sstream C:/MinGW/include/c++/13.2.0/istream \
- C:/MinGW/include/c++/13.2.0/ios \
- C:/MinGW/include/c++/13.2.0/bits/basic_ios.h \
  C:/MinGW/include/c++/13.2.0/bits/basic_ios.tcc \
  C:/MinGW/include/c++/13.2.0/ostream \
  C:/MinGW/include/c++/13.2.0/bits/ostream.tcc \
  C:/MinGW/include/c++/13.2.0/bits/istream.tcc \
+ C:/MinGW/include/c++/13.2.0/bits/codecvt.h \
+ C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/MinGW/include/c++/13.2.0/bits/fstream.tcc \
+ C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\CsvRep.h \
+ C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\JsonRep.h \
+ C:\Users\jakub\Apriorit\Homework1(GraphicVersion)\json.hpp \
+ C:/MinGW/include/c++/13.2.0/forward_list \
+ C:/MinGW/include/c++/13.2.0/bits/forward_list.h \
+ C:/MinGW/include/c++/13.2.0/bits/forward_list.tcc \
+ C:/MinGW/include/c++/13.2.0/valarray \
+ C:/MinGW/include/c++/13.2.0/bits/valarray_array.h \
+ C:/MinGW/include/c++/13.2.0/bits/valarray_array.tcc \
+ C:/MinGW/include/c++/13.2.0/bits/valarray_before.h \
+ C:/MinGW/include/c++/13.2.0/bits/slice_array.h \
+ C:/MinGW/include/c++/13.2.0/bits/valarray_after.h \
+ C:/MinGW/include/c++/13.2.0/bits/gslice.h \
+ C:/MinGW/include/c++/13.2.0/bits/gslice_array.h \
+ C:/MinGW/include/c++/13.2.0/bits/mask_array.h \
+ C:/MinGW/include/c++/13.2.0/bits/indirect_array.h \
+ C:/MinGW/include/c++/13.2.0/cassert \
+ C:/MinGW/include/c++/13.2.0/filesystem \
+ C:/MinGW/include/c++/13.2.0/bits/fs_fwd.h \
+ C:/MinGW/include/c++/13.2.0/bits/fs_path.h \
+ C:/MinGW/include/c++/13.2.0/locale \
+ C:/MinGW/include/c++/13.2.0/bits/locale_facets_nonio.h \
+ C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/MinGW/include/c++/13.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/MinGW/include/c++/13.2.0/bits/locale_facets_nonio.tcc \
+ C:/MinGW/include/c++/13.2.0/bits/locale_conv.h \
+ C:/MinGW/include/c++/13.2.0/iomanip \
+ C:/MinGW/include/c++/13.2.0/bits/quoted_string.h \
+ C:/MinGW/include/c++/13.2.0/sstream \
  C:/MinGW/include/c++/13.2.0/bits/sstream.tcc \
  C:/MinGW/include/c++/13.2.0/codecvt \
  C:/MinGW/include/c++/13.2.0/bits/fs_dir.h \
  C:/MinGW/include/c++/13.2.0/bits/fs_ops.h \
+ C:/MinGW/include/c++/13.2.0/any \
+ C:/Qt/6.7.2/mingw_64/include/QtWidgets/QFileDialog \
+ C:/Qt/6.7.2/mingw_64/include/QtWidgets/qfiledialog.h \
+ C:/Qt/6.7.2/mingw_64/include/QtCore/qdir.h \
+ C:/Qt/6.7.2/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/6.7.2/mingw_64/include/QtCore/qfiledevice.h \
+ C:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
  C:/Qt/6.7.2/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \

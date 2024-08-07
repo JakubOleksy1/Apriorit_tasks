@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <iostream>
 #include "GetFiles.h"
+#include "RepFactory.h"
 
 int main() {
     try {
         std::string folderPath;
-        std::cout << "Please enter you folder path: ";
+        std::cout << "Please enter your folder path: ";
         std::cin >> folderPath;
 
         auto files = GetFiles::getFiles(folderPath);
@@ -17,7 +17,19 @@ int main() {
             std::cout << "Creation Time: " << file.creationTime << std::endl;
             std::cout << "-------------------------" << std::endl;
         }
-        
+
+        auto csvReport = RepFactory::createReport(RepFactory::ReportType::CSV);
+        csvReport->generate(files, "output.csv");
+        std::cout << "CSV report generated and saved to output.csv" << std::endl;
+
+        auto jsonReport = RepFactory::createReport(RepFactory::ReportType::JSON);
+        jsonReport->generate(files, "output.json");
+        std::cout << "JSON report generated and saved to output.json" << std::endl;
+
+        auto txtReport = RepFactory::createReport(RepFactory::ReportType::TXT);
+        txtReport->generate(files, "output.txt");
+        std::cout << "TXT report generated and saved to output.txt" << std::endl;
+
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
