@@ -1,0 +1,62 @@
+;
+; KMDFDriverHW.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System ; TODO: specify appropriate Class
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Provider    = %ManufacturerName%
+CatalogFile = KMDFDriverHW.cat
+DriverVer = 08/08/2024,14.50.13.619
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+KMDFDriverHW.sys = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NTamd64.10.0...16299 ; %13% support introduced in build 16299
+
+[Standard.NTamd64.10.0...16299]
+%KMDFDriverHW.DeviceDesc% = KMDFDriverHW_Device, Root\KMDFDriverHW ; TODO: edit hw-id
+
+[KMDFDriverHW_Device.NT]
+CopyFiles = File_Copy
+
+[File_Copy]
+KMDFDriverHW.sys
+
+;-------------- Service installation
+[KMDFDriverHW_Device.NT.Services]
+AddService = KMDFDriverHW,%SPSVCINST_ASSOCSERVICE%, KMDFDriverHW_Service_Inst
+
+; -------------- KMDFDriverHW driver install sections
+[KMDFDriverHW_Service_Inst]
+DisplayName    = %KMDFDriverHW.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\KMDFDriverHW.sys
+
+[KMDFDriverHW_Device.NT.Wdf]
+KmdfService = KMDFDriverHW, KMDFDriverHW_wdfsect
+
+[KMDFDriverHW_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+DiskName = "KMDFDriverHW Installation Disk"
+KMDFDriverHW.DeviceDesc = "KMDFDriverHW Device"
+KMDFDriverHW.SVCDESC = "KMDFDriverHW Service"

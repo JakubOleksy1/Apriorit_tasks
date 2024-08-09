@@ -1,0 +1,23 @@
+﻿  Building 'KMDF DriverHW' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\KMDFDriverHW.inf
+  Stamping [Version] section with DriverVer=08/08/2024,14.50.13.619
+  Helloworld.c
+  KMDF DriverHW.vcxproj -> C:\Users\jakub\Apriorit\DriverTest\KMDF DriverHW\x64\Release\KMDFDriverHW.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\jakub\Apriorit\DriverTest\KMDF DriverHW\x64\Release\KMDFDriverHW.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\jakub\Apriorit\DriverTest\KMDF DriverHW\x64\Release\KMDF DriverHW\kmdfdriverhw.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\jakub\Apriorit\DriverTest\KMDF DriverHW\x64\Release\KMDF DriverHW\kmdfdriverhw.cat
+  
