@@ -1,0 +1,10 @@
+Implement a program for Linux using "socket.h" functionality that allows several clients to connect to it over TCP and send messages. If the client sends 'hello' message, the server should respond 'world'. If any other message is sent, the server should send it back to the client without changing it. Implement a client that can connect to the server described earlier and send messages to it.
+
+The client and server should be able to maintain a TCP connection and exchange messages until an explicit 'disconnect' command is received from the user.
+
+Grading:
+60% - both client and server programs compile without errors and can exchange multiple messages.
+20% - the server can serve multiple clients at once (use fork, epoll, pthread, etc).
+10% - for both client and server, all resources are managed and correctly disposed of.
+5% - make/cmake file that builds the project.
+5% - a comprehensive readme file.

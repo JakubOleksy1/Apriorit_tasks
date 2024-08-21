@@ -1,0 +1,28 @@
+Write a program in which 2 counter objects connected by signal-slot: changing the value of one will change the value of the other. Counter interface:
+class Counter {
+public:
+    Counter(int startValue);
+    int Increment();
+    int Decrement();
+
+// ... declare signals and slots
+
+private:
+    int m_count;
+}
+
+It is required to show an expamle of counters usage:
+- Create two counters with a different starting value
+- Execute Increment() of the first counter
+- Display values of both counters
+- Execute Increment() of the second counter
+- Display values of both counters
+- Execute Decrement() of the first counter
+- Display values of both counters
+- Execute Decrement() of the second counter
+- Display values of both counters
+
+Attach code files and the screen of results of execution to the report.
+
+GUI is not required, it is sufficient to show the results in std::out.
+Recommended IDE - Qt Creator. Can be downloaded here - https://www.qt.io/download.

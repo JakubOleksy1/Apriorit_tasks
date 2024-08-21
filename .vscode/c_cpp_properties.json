@@ -16,7 +16,9 @@
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/km",
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared",
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um",
-                "C:/Program Files (x86)/Windows Kits/10/Include/wdf/kmdf"
+                "C:/Program Files (x86)/Windows Kits/10/Include/wdf/kmdf",
+                "C:/googletest-main/googletest/include",
+                "C:/googletest-main/googlemock/include"
             
             ],
             "defines": [
