@@ -11,6 +11,6 @@
  * Homework07 - Writing unit tests.
  * Homework08 - Fundamentals of networking.
  * Homework09 - Multithreading.
- * Homework010 - Data abstraction and problem solving. STL.
+ * Homework10 - Data abstraction and problem solving. STL.
 
 ## The task instructions will be in correct folder called task(homeworksNumber)
