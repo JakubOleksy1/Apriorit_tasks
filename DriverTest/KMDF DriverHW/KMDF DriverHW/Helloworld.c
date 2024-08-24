@@ -1,6 +1,7 @@
 #pragma warning (disable : 4100)
 #include "Helloworld.h"
 #include "messages.h"
+#include <ntddk.h>
 
 NTSTATUS DriverEntry(PDRIVER_OBJECT pDriverObject, PUNICODE_STRING pRegistryPath) {
 
