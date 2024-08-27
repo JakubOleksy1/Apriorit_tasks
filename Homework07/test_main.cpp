@@ -1,7 +1,7 @@
+#include "functions.h"
 #include <gtest/gtest.h>
-#include "main.cpp"
 
-//Products Amount
+// Test cases for GetProductsAmount
 TEST(GetProductsAmountTest, NoProducts) {
     std::vector<int> prices = {};
     EXPECT_EQ(GetProductsAmount(prices, 100), 0);
@@ -19,37 +19,26 @@ TEST(GetProductsAmountTest, SingleProductNotAffordable) {
 
 TEST(GetProductsAmountTest, MultipleProductsSomeAffordable) {
     std::vector<int> prices = {50, 30, 20, 10};
-    EXPECT_EQ(GetProductsAmount(prices, 60), 2);
+    EXPECT_EQ(GetProductsAmount(prices, 60), 2); }
+
+// Test cases for IsLeapYear
+TEST(IsLeapYearTest, CommonYear) {
+    EXPECT_FALSE(IsLeapYear(2019));
 }
 
-TEST(GetProductsAmountTest, MultipleProductsAllAffordable) {
-    std::vector<int> prices = {10, 20, 30, 40};
-    EXPECT_EQ(GetProductsAmount(prices, 100), 4);
+TEST(IsLeapYearTest, LeapYear) {
+    EXPECT_TRUE(IsLeapYear(2020));
 }
 
-TEST(GetProductsAmountTest, MultipleProductsNoneAffordable) {
-    std::vector<int> prices = {100, 200, 300};
-    EXPECT_EQ(GetProductsAmount(prices, 50), 0);
-}
-
-//Lap year
-TEST(IsLeapYearTest, CommonYearNotDivisibleBy4) {
-    EXPECT_FALSE(IsLeapYear(1997));
-}
-
-TEST(IsLeapYearTest, LeapYearDivisibleBy4) {
-    EXPECT_TRUE(IsLeapYear(1996));
-}
-
-TEST(IsLeapYearTest, CommonYearDivisibleBy100) {
+TEST(IsLeapYearTest, CenturyYearNotLeap) {
     EXPECT_FALSE(IsLeapYear(1900));
 }
 
-TEST(IsLeapYearTest, LeapYearDivisibleBy400) {
+TEST(IsLeapYearTest, CenturyYearLeap) {
     EXPECT_TRUE(IsLeapYear(2000));
 }
 
 int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
+    testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }

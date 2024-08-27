@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/jakub/Apriorit/Homework1(GraphicVersion)/build", 
+                "C:/Users/jakub/Apriorit/Homework01(GraphicVersion)/build", 
                 "C:/Qt/6.7.2/mingw_64/include",
                 "C:/Qt/6.7.2/mingw_64/include/QtWidgets",
                 "C:/Qt/6.7.2/mingw_64/include/QtCore",
@@ -18,7 +18,10 @@
                 "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um",
                 "C:/Program Files (x86)/Windows Kits/10/Include/wdf/kmdf",
                 "C:/googletest-main/googletest/include",
-                "C:/googletest-main/googlemock/include"
+                "C:/googletest-main/googlemock/include",
+                "C:/googletest-main/googletest/include/gtest",
+                "C:/googletest-main/googlemock/include/gmock",
+                "C:/googletest-main/build/lib"
             
             ],
             "defines": [
@@ -26,8 +29,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.22621.0",
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe",
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"

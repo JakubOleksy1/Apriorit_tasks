@@ -26,14 +26,14 @@ private:
 
 int main() {
     TelephoneBook book;
-    book.addContact("Alice", "123-456-7890");
+    book.addContact("Julia", "123-456-7890");
     book.addContact("Bob", "987-654-3210");
 
-    std::cout << "Alice's number: " << book.findContact("Alice") << std::endl;
+    std::cout << "Julia's number: " << book.findContact("Julia") << std::endl;
     std::cout << "Bob's number: " << book.findContact("Bob") << std::endl;
 
-    book.deleteContact("Alice");
-    std::cout << "Alice's number after deletion: " << book.findContact("Alice") << std::endl;
+    book.deleteContact("Julia");
+    std::cout << "Julia's number after deletion: " << book.findContact("Julia") << std::endl;
 
     return 0;
 }
