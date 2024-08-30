@@ -21,7 +21,8 @@
                 "C:/googletest-main/googlemock/include",
                 "C:/googletest-main/googletest/include/gtest",
                 "C:/googletest-main/googlemock/include/gmock",
-                "C:/googletest-main/build/lib"
+                "C:/googletest-main/build/lib",
+                "C:/Boost/vcpkg-master/installed/x64-windows/include"
             
             ],
             "defines": [

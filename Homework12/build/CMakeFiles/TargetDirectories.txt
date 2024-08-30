@@ -1,0 +1,6 @@
+C:/Users/jakub/Apriorit/Homework12/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jakub/Apriorit/Homework12/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jakub/Apriorit/Homework12/build/Client/CMakeFiles/client.dir
+C:/Users/jakub/Apriorit/Homework12/build/Client/CMakeFiles/ALL_BUILD.dir
+C:/Users/jakub/Apriorit/Homework12/build/Server/CMakeFiles/server.dir
+C:/Users/jakub/Apriorit/Homework12/build/Server/CMakeFiles/ALL_BUILD.dir

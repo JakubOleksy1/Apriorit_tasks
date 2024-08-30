@@ -12,5 +12,7 @@
  * Homework08 - Fundamentals of networking.
  * Homework09 - Multithreading.
  * Homework10 - Data abstraction and problem solving. STL.
+ * Homework11 - Development for Linux.
+ * Homework12 - Inter-process communication.
 
 ## The task instructions will be in correct folder called task(homeworksNumber)

@@ -1,0 +1,10 @@
+^C:\USERS\JAKUB\APRIORIT\HOMEWORK12\BUILD\CMAKEFILES\F9E1C2E11627C6088283E56FA694D9B2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jakub/Apriorit/Homework12 -BC:/Users/jakub/Apriorit/Homework12/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jakub/Apriorit/Homework12/build/FileTransfer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\JAKUB\APRIORIT\HOMEWORK12\CLIENT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jakub/Apriorit/Homework12 -BC:/Users/jakub/Apriorit/Homework12/build --check-stamp-file C:/Users/jakub/Apriorit/Homework12/build/Client/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
